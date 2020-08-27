@@ -1,0 +1,446 @@
+:root{
+--main-font: Roboto;
+--secondary-font: Raleway;
+--title-dark-theme: #ffffff;
+--accent-color: #2196F3;
+}
+
+body {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+background-color: #ffffff;
+color: #757575;
+}
+
+h1,
+h2,
+h3{
+margin: 0%;
+}
+
+button{
+border: 0;
+padding: 0%;
+}
+
+p{
+margin: 0%;
+}
+
+img{
+display: block;
+max-width: 100%;
+height: auto;
+}
+ 
+.link {
+text-decoration: none;
+}
+
+.list {
+list-style: none;
+padding: 0; 
+margin: 0;
+}
+
+/*Header*/
+
+.logo-link, 
+.web-link {
+font-family: var(--secondary-font);
+font-size: 26px;
+line-height: 1.19; 
+text-decoration: none;   
+}
+
+.logo-link {
+color: #000000;
+margin-right: 85px;
+}
+.web-link {   
+color: var(--accent-color);
+}
+
+.navigation-list-link,
+.header-adress {
+letter-spacing: 0.02em;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+.navigation-list-link {
+color: #212121;
+}
+
+.header-adress {
+color: #757575;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-adress:hover,
+.header-adress:focus {
+color: var(--accent-color);
+}
+
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--title-dark-theme);
+margin-bottom: 30px;
+}
+
+.modal-btn{
+font-size: 16px;
+line-height: 1.88;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--title-dark-theme);
+background-color: var(--accent-color);
+display: block;
+margin: auto;
+}
+
+.heading3{
+text-transform: uppercase;
+color: #212121;
+margin-bottom: 10px;
+}
+
+.project-description {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+}
+
+.title2{
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: #212121;
+margin-bottom: 50px;
+}
+
+.staff-list{
+background: #E5E5E5
+}
+
+.activities{
+text-align: center;
+text-transform: uppercase;
+color: var(--title-dark-theme);
+background: rgba(47, 48, 58, 0.8);
+}
+
+.title3{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.89;
+text-align: center;
+color: #212121;
+margin-bottom: 10px;
+}
+
+.staff {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.89;
+text-align: center;
+}
+
+/*Footer*/
+.adress{
+font-weight: normal;
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+color: var(--title-dark-theme);
+}
+
+.e-mail,
+.tel {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer{
+background: #2F303A;
+}
+
+.logo-footer{
+font-family: var(--secondary-font);
+font-size: 26px;
+line-height: 1.19;    
+color: var(--title-dark-theme);
+margin-bottom: 20px;
+}
+
+.foter-actions{
+text-transform: uppercase;
+color: var(--title-dark-theme);
+}
+
+.button-e-mail{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.25;
+display: flex;
+align-items: center;
+color: rgba(255, 255, 255, 0.6);
+background: #2F303A; ;
+}
+
+.button-subscribe{
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--title-dark-theme);
+background: var(--accent-color);
+}
+
+/*Portfolio*/
+
+.button-our-work{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+color: #212121;
+}
+
+.button-our-work:hover,
+.button-our-work:focus {
+background-color: var(--accent-color) ;
+color: var(--title-dark-theme);
+}
+
+.all-work{
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.all-project{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.88;
+color: #757575;
+}
+
+.container{
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.navigation-list{
+display: flex;
+}
+
+.navigation-list-item:not(:last-child){
+margin-right: 50px;
+}
+
+.navigation{
+display: flex;
+align-items: center;
+}
+
+.header .container{
+display: flex;
+justify-content: space-between;
+}
+
+.header-adress{
+display: flex;
+}
+
+.mail{
+margin-right: 30px;
+}
+
+.hero{
+padding-left: 452px;
+padding-right: 452px;
+padding-top: 200px;
+padding-bottom: 280px;
+}
+
+.project{
+display: flex; 
+padding-left: 215px;
+padding-right: 216.93px;
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.project-item{
+margin-bottom: 55px;
+}
+
+.project-link:not(:last-child){
+margin-right: 30px;
+}
+
+.activities-list{
+display: flex;
+}
+.section-container{
+padding-left: 215px;
+padding-right: 216.93px;
+padding-bottom: 94px;
+}
+
+.item-section-container{
+display: flex;
+}
+
+.container-title{
+padding-top: 94px;
+}
+
+.activities-link:not(:last-child){
+margin-right: 30px;
+}
+
+.staff-link:not(:last-child){
+margin-right: 30px;
+}
+
+.staff-img{
+margin-bottom: 30px;
+}
+
+.staff{
+margin-bottom: 16px;
+}
+
+.about-staff-list{
+display: flex;
+}
+
+.staff-img{
+margin-bottom: 10px;
+}
+
+.customer{
+display: flex;
+padding-bottom: 94px;
+}
+
+.customer-link:not(:last-child){
+margin-right: 30px;
+}
+
+.social{
+display: flex;
+}
+
+.social-link{
+margin-right: 10px;
+}
+
+.customer-container{
+padding-top: 50px;
+}
+
+.about-customer-link{
+display: flex;
+width: 170px;
+height: 90px;
+border: 1px solid #AFB1B8;
+justify-content: center;
+align-items: center;
+}
+
+.footer{
+display: flex;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.adress-footer-link:not(:last-child){
+margin-bottom: 9px;
+}
+
+.footer-actions{
+margin-bottom: 20px;
+}
+
+.footer-containar{
+padding-left: 215px;
+
+}
+
+.container-footer-adress{
+display: flex;
+}
+
+.social-container{
+    padding-left: 69px;
+}
+
+.container-portfolio{
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 94px;
+padding-top: 26px;
+}
+
+.our-work{
+display: flex; 
+padding-left: 295px;
+padding-top: 93px;
+padding-bottom: 34px;
+}
+.button-our-work{
+    padding-right: 22px;
+    padding-left: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.btn-our-work:not(:last-child){
+margin-right: 8px;
+}
+
+.all-work-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all-work-link:not(:nth-child(3n+3)){
+    margin-right: 30px;
+}
+
+.all-work-link:nth-last-child(n+4){
+    margin-bottom: 30px;
+}
+.all-work-project-img{
+    margin-bottom: 20px;
+}
+
+.all-work{
+    margin-bottom: 4px;
+}
